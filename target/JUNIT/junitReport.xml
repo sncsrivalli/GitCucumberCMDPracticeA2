@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="40.358" tests="3" skipped="0" failures="0" errors="0">
+<testcase classname="Login DDT" name="Login with multiple credentials - Example #1.1" time="11.477">
+<system-out><![CDATA[
+Given I want to navigate to actitime........................................passed
+When I enter admin and manager..............................................passed
+And Hit on enter............................................................passed
+Then Actitime home page with success is displayed...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login DDT" name="Login with multiple credentials - Example #1.2" time="12.702">
+<system-out><![CDATA[
+Given I want to navigate to actitime........................................passed
+When I enter trainee and trainee............................................passed
+And Hit on enter............................................................passed
+Then Actitime home page with success is displayed...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login DDT" name="Login with multiple credentials - Example #1.3" time="16.038">
+<system-out><![CDATA[
+Given I want to navigate to actitime........................................passed
+When I enter abcdef and 1234567.............................................passed
+And Hit on enter............................................................passed
+Then Actitime home page with failure is displayed...........................passed
+]]></system-out>
+</testcase>
+</testsuite>
